@@ -5,28 +5,72 @@
         
         <style type="text/css">
             
-            main, header, .body-div, .left-div, search, article, aside, footer 
+            header, .body-div,  footer 
             {
-                display: inline;
+                display: block;
             }
             
+            header img
+            {
+                width: 200px;
+                height: 100px;
+            }
+            
+           .body-div
+            {
+                display :inline;
+            }
+            
+            main, body-div, article
+            {
+                border:solid black;
+            }
+            
+           search button 
+            {
+                padding: 0;
+                border: none;
+                background: none;
+
+            }
+            
+            .container
+            {
+                padding-right:400px;
+            }
+            
+            
+            .body-div
+            {
+                position: relative;
+                
+            }
+            
+            .body-div button
+            {
+            position: sticky;
+            bottom: 20px;
+            left :80%;
+            }
+            
+            
+            
         </style>
-        
-        
-        
-        
-        
+
     </head>
     <body>
 
             <main>
             
+                <div class = "container" >
                     
+                 
                 
                 
                 <header>
-                    Header  
-                    
+                     
+                    <img src ="support.png"> 
+
                 </header>
                 
                 
@@ -36,12 +80,56 @@
                     <div class = "left-div">
                         
                         <search>
-                            body left top
+                            
+                            <input type="text">
+                            
+                            <button type="button"> 
+                             <img src ="search.png" width = 15px height = 15px >
+                            </button>
+                            
                         </search> 
                         
                         <article>
-                            body left bottom
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et sem sed interdum. In est sapien, commodo in metus at, pretium accumsan lacus. Etiam ultricies fermentum dolor in eleifend. Nam feugiat neque diam, id pharetra sapien pretium nec. Vivamus iaculis sagittis eros vitae sagittis. Aliquam gravida consectetur massa, ut porta arcu lacinia eget. Ut porttitor, mauris nec auctor sodales, nunc eros ultricies leo, quis efficitur arcu leo eu ante. Nunc dui dui, dignissim in mauris sed, sodales scelerisque libero. Quisque a porttitor lorem, a vehicula arcu. Etiam fermentum volutpat aliquet. Donec quis ultricies tellus, vitae finibus dui. Praesent viverra, enim ac semper gravida, ex sem varius dolor, eget fermentum augue nulla in mauris.
+
+                            Praesent ultricies lectus ac sapien blandit tristique. Aenean arcu elit, ultrices non libero quis, volutpat finibus sem. Duis imperdiet vehicula quam. Integer libero tortor, cursus eget accumsan in, tempor et dui. Mauris convallis eros magna, vitae varius turpis dapibus ut. Duis efficitur tempor pharetra. Suspendisse eu blandit felis, at finibus sem. Curabitur at gravida neque. Vivamus sollicitudin quis erat a aliquam. Nunc auctor orci ex, quis pulvinar leo suscipit ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Vivamus et fermentum neque. Duis cursus, ex id tempus mattis, augue leo facilisis nunc, posuere fringilla mauris nunc id dolor. Suspendisse molestie sagittis mauris at laoreet. Sed pharetra felis at vulputate dapibus.
+
+                            Nam ut nulla justo. Vivamus lacinia quam vel ullamcorper tristique. Aenean vestibulum nibh sit amet ex dictum hendrerit. Aenean eleifend turpis eget pulvinar finibus. Maecenas rhoncus molestie mi, eu ultricies lacus egestas non. Morbi et efficitur nunc. Quisque imperdiet est eget lacus mollis consequat. Donec viverra purus vitae egestas convallis. Curabitur porttitor, lorem eget imperdiet varius, est lectus elementum libero, vitae condimentum augue orci eu nisi. Nam in rhoncus nibh. Sed et est massa. Nulla rutrum venenatis eros, eu sollicitudin augue maximus a.
+
+                            Morbi non libero eget quam scelerisque pretium in sed turpis. Aliquam sit amet lacus at elit sagittis euismod. Aliquam erat volutpat. Praesent feugiat ipsum et venenatis placerat. Nam vitae erat nisi. Pellentesque nec blandit dolor, at molestie mi. Morbi a nibh id mauris tincidunt sagittis ac a dui. In dapibus at eros id posuere.
+
+                            Vestibulum ipsum nulla, porttitor in placerat et, consectetur eu sem. Phasellus elit elit, facilisis sit amet dolor eu, iaculis interdum enim. Suspendisse potenti. Proin ac efficitur tellus. Duis at urna sed nibh rutrum consectetur. Fusce maximus velit non ante condimentum, eget dictum velit feugiat. Maecenas ut feugiat orci. Cras luctus dui ex, a fringilla nunc pellentesque ut.
+                       
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et sem sed interdum. In est sapien, commodo in metus at, pretium accumsan lacus. Etiam ultricies fermentum dolor in eleifend. Nam feugiat neque diam, id pharetra sapien pretium nec. Vivamus iaculis sagittis eros vitae sagittis. Aliquam gravida consectetur massa, ut porta arcu lacinia eget. Ut porttitor, mauris nec auctor sodales, nunc eros ultricies leo, quis efficitur arcu leo eu ante. Nunc dui dui, dignissim in mauris sed, sodales scelerisque libero. Quisque a porttitor lorem, a vehicula arcu. Etiam fermentum volutpat aliquet. Donec quis ultricies tellus, vitae finibus dui. Praesent viverra, enim ac semper gravida, ex sem varius dolor, eget fermentum augue nulla in mauris.
+
+                            Praesent ultricies lectus ac sapien blandit tristique. Aenean arcu elit, ultrices non libero quis, volutpat finibus sem. Duis imperdiet vehicula quam. Integer libero tortor, cursus eget accumsan in, tempor et dui. Mauris convallis eros magna, vitae varius turpis dapibus ut. Duis efficitur tempor pharetra. Suspendisse eu blandit felis, at finibus sem. Curabitur at gravida neque. Vivamus sollicitudin quis erat a aliquam. Nunc auctor orci ex, quis pulvinar leo suscipit ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Vivamus et fermentum neque. Duis cursus, ex id tempus mattis, augue leo facilisis nunc, posuere fringilla mauris nunc id dolor. Suspendisse molestie sagittis mauris at laoreet. Sed pharetra felis at vulputate dapibus.
+
+                            Nam ut nulla justo. Vivamus lacinia quam vel ullamcorper tristique. Aenean vestibulum nibh sit amet ex dictum hendrerit. Aenean eleifend turpis eget pulvinar finibus. Maecenas rhoncus molestie mi, eu ultricies lacus egestas non. Morbi et efficitur nunc. Quisque imperdiet est eget lacus mollis consequat. Donec viverra purus vitae egestas convallis. Curabitur porttitor, lorem eget imperdiet varius, est lectus elementum libero, vitae condimentum augue orci eu nisi. Nam in rhoncus nibh. Sed et est massa. Nulla rutrum venenatis eros, eu sollicitudin augue maximus a.
+
+                            Morbi non libero eget quam scelerisque pretium in sed turpis. Aliquam sit amet lacus at elit sagittis euismod. Aliquam erat volutpat. Praesent feugiat ipsum et venenatis placerat. Nam vitae erat nisi. Pellentesque nec blandit dolor, at molestie mi. Morbi a nibh id mauris tincidunt sagittis ac a dui. In dapibus at eros id posuere.
+
+                            Vestibulum ipsum nulla, porttitor in placerat et, consectetur eu sem. Phasellus elit elit, facilisis sit amet dolor eu, iaculis interdum enim. Suspendisse potenti. Proin ac efficitur tellus. Duis at urna sed nibh rutrum consectetur. Fusce maximus velit non ante condimentum, eget dictum velit feugiat. Maecenas ut feugiat orci. Cras luctus dui ex, a fringilla nunc pellentesque ut.
+                       
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et sem sed interdum. In est sapien, commodo in metus at, pretium accumsan lacus. Etiam ultricies fermentum dolor in eleifend. Nam feugiat neque diam, id pharetra sapien pretium nec. Vivamus iaculis sagittis eros vitae sagittis. Aliquam gravida consectetur massa, ut porta arcu lacinia eget. Ut porttitor, mauris nec auctor sodales, nunc eros ultricies leo, quis efficitur arcu leo eu ante. Nunc dui dui, dignissim in mauris sed, sodales scelerisque libero. Quisque a porttitor lorem, a vehicula arcu. Etiam fermentum volutpat aliquet. Donec quis ultricies tellus, vitae finibus dui. Praesent viverra, enim ac semper gravida, ex sem varius dolor, eget fermentum augue nulla in mauris.
+
+                            Praesent ultricies lectus ac sapien blandit tristique. Aenean arcu elit, ultrices non libero quis, volutpat finibus sem. Duis imperdiet vehicula quam. Integer libero tortor, cursus eget accumsan in, tempor et dui. Mauris convallis eros magna, vitae varius turpis dapibus ut. Duis efficitur tempor pharetra. Suspendisse eu blandit felis, at finibus sem. Curabitur at gravida neque. Vivamus sollicitudin quis erat a aliquam. Nunc auctor orci ex, quis pulvinar leo suscipit ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Vivamus et fermentum neque. Duis cursus, ex id tempus mattis, augue leo facilisis nunc, posuere fringilla mauris nunc id dolor. Suspendisse molestie sagittis mauris at laoreet. Sed pharetra felis at vulputate dapibus.
+
+                            Nam ut nulla justo. Vivamus lacinia quam vel ullamcorper tristique. Aenean vestibulum nibh sit amet ex dictum hendrerit. Aenean eleifend turpis eget pulvinar finibus. Maecenas rhoncus molestie mi, eu ultricies lacus egestas non. Morbi et efficitur nunc. Quisque imperdiet est eget lacus mollis consequat. Donec viverra purus vitae egestas convallis. Curabitur porttitor, lorem eget imperdiet varius, est lectus elementum libero, vitae condimentum augue orci eu nisi. Nam in rhoncus nibh. Sed et est massa. Nulla rutrum venenatis eros, eu sollicitudin augue maximus a.
+
+                          
+                      
+                       
                         </article>
+                        
+                        
+                            
+                            <button type="button"> 
+                                <img src ="help.png" width = 30px height = 30px >
+                            </button>
+                            
+                        
+                        
+                        
                         
                     </div>
                     
@@ -56,13 +144,13 @@
                 
                 
                 <footer> 
-                    footer
+                    &copy2019, Jose Ramirez
                 
                 </footer>
                 
                 
                 
-                
+             </div>  
                 
             </main>
             

@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+   
+    font-size: 1.8em;
+    border-bottom-style: double;
+    border-bottom-color: white;
+}
+
+
+/*ul {
+    list-style-type:none;
+    font-size: 2em;
+}*/
+
+ .vertical-menu {
+    width: 200px; /* Set a width if you like */
+    height: 450px;
+}
+
+ .vertical-menu a {
+    background-color: #6D7993; /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding-bottom:40px; /* Add some padding */
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+    font-size:1.8em;
+    border-style: double;
+    border-radius: 50px 50px;
+    
+}
+
+ .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+    cursor:alias;
+}
+
+ .vertical-menu 
+ {
+     float: left;
+ }
+
+
+p {
+    display: block;
+    /*padding-left: 250px;*/
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 1.4em;
+    
+ 
+}
+
+
+#operatingSystem
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50%;
+    }
+    
+       
+    
+    
+body { 
+    background-color: #96858F;
+    color:white;
+}

@@ -1,0 +1,95 @@
+body {
+    background-color:black;
+    color:gray;
+    }
+    
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a { /* links wihin "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;  /* removes underline*/
+    color: white;           /* by default, links are blue*/
+}
+
+nav a:hover { /* pseudo class*/
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;  /*transition effect*/
+}
+
+
+
+
+#me, #welcomeText {
+    float:left;
+  
+}
+
+
+
+#welcomeText{
+    text-align: left;
+}
+
+
+
+
+
+footer {
+    clear: left;
+    font-size: .5em;
+    color:#A52A2A;
+    
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    text-align: center;
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+    
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 400px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+iframe{
+    margin: 0px auto;
+    display: block;
+}
+
+.current{
+    color: #A52A2A;
+    
+}
+
+h1{
+    font-family: "Lobster", cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
