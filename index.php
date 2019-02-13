@@ -9,5 +9,7 @@
         <a href= "/assignments/hw1">Assignment 1</a>
         <br>
         <a href= "/labs/lab1-portfolio">Lab 1</a>
+        <br>
+        <a href= "/labs/lab2-guessNumber">Lab 2 Number Guessing</a>
     </body>
 </html>
