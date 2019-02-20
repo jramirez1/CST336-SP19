@@ -1,0 +1,27 @@
+#congrats
+{
+    color:green;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+
+#messege
+{
+        text-align: center;
+
+}
+#score
+{
+        text-align: center;
+
+}
+
+#tscore
+{
+    color:red;
+    font-size: 3em;
+    font-weight: bold;
+
+}
