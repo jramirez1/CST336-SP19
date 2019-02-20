@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Weather Forecast</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body id="dummybodyid">
+  <header>
+    <h1>Input City Zip code to get weather forcast</h1>
+  </header>
+
+  <form method="post">
+		<div><label>zip</label><input type="text" id="zip" ></div>
+		<!--<div><label>End Time:</label><input type="text" id="endtime" value="2017-11-30"></div>
+		<div><label>Latitude:</label><input type="text" id="latitude" value="36.6"></div>
+		<div><label>Longitude:</label><input type="text" id="longitude" value="-121.9"></div>
+		<div><label>Max Radius:</label><input type="text" id="maxradius" value="10"></div>
+		<div><label>Magnitude (0 to 7):</label><input type="range" id="minmag" min="0" value="3" max="7"></div>
+		-->
+	</form>
+	
+	
+	
+
+
+
+  <div id="earthquakeResult"></div>
+
+
+
+
+
+
+
+
+
+  <script>
+		//$("input").change(getForcast);
+    getForecast();
+
+
+    
+  	function getForecast() {        
+      $.ajax({
+          
+          type: "GET",
+          url:"https://api.openweathermap.org/data/2.5/weather?zip=93960,us&appid=a631529353cb009ce12f9d9a2b1ec92c",
+          dataType: "json",
+          success: function(data) {
+              console.log(data);
+          }
+          
+         });
+    }
+ 	</script>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+</body>
+</html>

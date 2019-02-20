@@ -1,0 +1,40 @@
+
+body 
+{
+    color:red;
+    background-color: pink;
+}
+
+#name
+{
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+
+#form_wrapper
+{
+    
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.input
+{
+    padding-bottom: 10px;
+}
+
+
+#results
+{
+    margin-top:50px;
+    text-align: center;
+}
+
+#results
+{
+    font-size: 2em;
+    color: red;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        
+         <link href="styles.css" rel="stylesheet" type="text/css" />
+         
+    </head>
+    <body>
+        
+        
+        <div id="name">CALCULATOR</div>
+        <form id="calculator">
+           <div id = "form_wrapper"> 
+            <!--input for first number -->
+            <div class= 'input'>
+                <label for="number1">Enter Number</label>
+                <input type="text" id="number1" name="number" >
+                <label id="number_error"></label>
+            </div>
+            <!--slider for 2nd number-->
+            <div class= 'input'>
+                <label for="number2">Enter Number</label>
+                <input type="range" name="number" min="0" max="100" id="range_slider">
+                <span id ="slider_value"></span>
+            </div>
+            <!--opration selection -->
+            <div class= 'input'>
+                <select name="operation" id= "operation">
+                  <option value="pick">Pick An Operation</option> 
+                  <option value="add">+</option>
+                  <option value="subtract">-</option>
+                  <option value="multiply">x</option>
+                  <option value="devide">/</option>
+                </select>
+                <label id="operation_error"></label>
+            </div>
+            <div class = "input">
+            <!--calculate button -->
+           <button class = "calculate" type="button">Calculate</button>
+           <!--clear button -->
+           <button class = "clear" type="button">Clear</button>
+        </div>
+        </div>
+    </form>
+            <!--print result  -->
+            <div id = "results"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        
+
+
+        <script>
+            var slider = document.getElementById("range_slider");
+            var output = document.getElementById("slider_value");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+              output.innerHTML = this.value;
+            }
+            
+            
+            $("button.calculate").on("click", function(e){
+                var number1 = parseInt($("#number1").val());
+                var number2 =parseInt($('#range_slider').val());
+                var operation = $('#operation').find(":selected").text();
+                var answer;
+                
+                
+                $("#number_error").html("");
+                $("#operation_error").html("");
+                if(isNaN(number1))
+                {
+                    $("#number_error").html("Please enter a number");
+                    return;
+                }
+                if(operation === "Pick An Operation")
+                {
+                     $("#operation_error").html("Please choose an operation");
+                    return;
+                }
+                else
+                {
+                    //clear calculator after submiting numbers
+                    $('#calculator').trigger("reset");
+                    $('#slider_value').html('50');
+                }
+     
+            switch(operation) {
+              case "+":
+                answer = number1+number2;
+                break;
+              case "-":
+                answer = number1-number2;
+                break;
+              case "x":
+                answer = number1*number2;
+                break;
+              case "/":
+                answer = number1/number2;
+                break;    
+            }
+    
+                $("#results").html(answer);
+
+            })
+            
+            
+            
+            
+            
+            $("button.clear").on("click", function(e){
+                $('#calculator').trigger("reset");
+                $('#slider_value').html('50');
+            })
+      
+            
+        </script>
+
+
+    </body>
+</html>
