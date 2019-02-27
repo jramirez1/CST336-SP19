@@ -1,0 +1,29 @@
+#container
+{
+    border: solid green;
+    text-align: center;
+    
+}
+
+#widget
+{
+
+    width: 40%;
+    height: 40%;
+    margin-top: 100px;
+    border: solid;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.weather_item
+{
+    display: inline-block;
+    border: solid red;
+}
+
+#items
+{
+    display: felx;
+}
