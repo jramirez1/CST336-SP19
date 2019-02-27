@@ -20,7 +20,7 @@
         <br>
         <a href= "/labs/lab3-quiz">Lab 3 Quiz</a>
         <br>
-        <a href= "/labs/lab4-AjaxSignUp">Lab 4 Ajax SignUp</a>
+        <a href= "/labs/lab4">Lab 4 Ajax SignUp</a>
         
     </body>
 </html>
