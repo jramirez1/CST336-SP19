@@ -1,0 +1,5 @@
+[12-Mar-2019 00:53:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/tutorials/joins/joins.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/tutorials/joins/joins.php(19): PDO->__construct('mysql:host=0.0....', 'jramirez1', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/tutorials/joins/joins.php on line 19

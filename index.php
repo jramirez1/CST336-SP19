@@ -21,6 +21,8 @@
         <a href= "/labs/lab3-quiz">Lab 3 Quiz</a>
         <br>
         <a href= "/labs/lab4">Lab 4 Ajax SignUp</a>
+        <br>
+        <a href= "/labs/lab7-otterMart">Lab 6: OtterMart</a>
         
     </body>
 </html>
