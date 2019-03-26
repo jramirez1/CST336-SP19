@@ -10,7 +10,7 @@ function get_database_connection($dbname = 'ottermart'){
     
      //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
-        $url = parse_url(getenv("mysql://bbc314c67abb43:b336bb73@us-cdbr-iron-east-03.cleardb.net/heroku_cef7aa65e0d770c?reconnect=true"));
+        $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
         $dbname = substr($url["path"], 1);
         $username = $url["user"];
