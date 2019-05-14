@@ -1,0 +1,50 @@
+[12-May-2019 16:17:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scheduler.appointments' doesn't exist' in /home/ubuntu/workspace/FINAL/api/getUserApp.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/getUserApp.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/getUserApp.php on line 10
+[12-May-2019 16:19:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scheduler.appointments' doesn't exist' in /home/ubuntu/workspace/FINAL/api/getUserApp.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/getUserApp.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/getUserApp.php on line 10
+[12-May-2019 16:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scheduler.appointments' doesn't exist' in /home/ubuntu/workspace/FINAL/api/getUserApp.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/getUserApp.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/getUserApp.php on line 10
+[13-May-2019 18:01:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PM, 4 PM,0, 'not booked', '2', '1')' at line 3' in /home/ubuntu/workspace/FINAL/api/addSlot.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/addSlot.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/addSlot.php on line 22
+[13-May-2019 18:05:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PM, 2 PM,0, 'not booked', '2', '1')' at line 3' in /home/ubuntu/workspace/FINAL/api/addSlot.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/addSlot.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/addSlot.php on line 22
+[14-May-2019 01:14:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/FINAL/api/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/deleteRecord.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/deleteRecord.php on line 12
+[14-May-2019 01:55:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/FINAL/api/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/deleteRecord.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/deleteRecord.php on line 12
+[14-May-2019 01:56:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/FINAL/api/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/deleteRecord.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/deleteRecord.php on line 12
+[14-May-2019 01:57:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/FINAL/api/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/deleteRecord.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/deleteRecord.php on line 12
+[14-May-2019 01:59:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/FINAL/api/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/FINAL/api/deleteRecord.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FINAL/api/deleteRecord.php on line 12

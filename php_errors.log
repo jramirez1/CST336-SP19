@@ -1,0 +1,19 @@
+[05-May-2019 17:41:01 UTC] PHP Warning:  move_uploaded_file() expects parameter 1 to be string, array given in /home/ubuntu/workspace/picture_upload/file_upload.php on line 23
+[05-May-2019 17:41:01 UTC] PHP Stack trace:
+[05-May-2019 17:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/picture_upload/file_upload.php:0
+[05-May-2019 17:41:01 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/picture_upload/file_upload.php:23
+[05-May-2019 17:42:56 UTC] PHP Warning:  move_uploaded_file() expects parameter 1 to be string, array given in /home/ubuntu/workspace/picture_upload/file_upload.php on line 23
+[05-May-2019 17:42:56 UTC] PHP Stack trace:
+[05-May-2019 17:42:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/picture_upload/file_upload.php:0
+[05-May-2019 17:42:56 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/picture_upload/file_upload.php:23
+[05-May-2019 18:21:44 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/picture_upload/file_upload.php on line 56
+[05-May-2019 18:21:44 UTC] PHP Stack trace:
+[05-May-2019 18:21:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/picture_upload/file_upload.php:0
+[05-May-2019 18:50:59 UTC] PHP Warning:  move_uploaded_file(uploads/test.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/picture_upload/file_upload.php on line 85
+[05-May-2019 18:50:59 UTC] PHP Stack trace:
+[05-May-2019 18:50:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/picture_upload/file_upload.php:0
+[05-May-2019 18:50:59 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/picture_upload/file_upload.php:85
+[05-May-2019 18:50:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHunhOU' to 'uploads/test.png' in /home/ubuntu/workspace/picture_upload/file_upload.php on line 85
+[05-May-2019 18:50:59 UTC] PHP Stack trace:
+[05-May-2019 18:50:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/picture_upload/file_upload.php:0
+[05-May-2019 18:50:59 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/picture_upload/file_upload.php:85

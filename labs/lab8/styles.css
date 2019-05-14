@@ -1,0 +1,23 @@
+.main-content-container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 30px;
+  border:solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container {
+  height: 150px;
+  width: 150px;
+  margin: 10px 1em ;
+  padding-left:25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+/*   background: lightyellow; */
+  /*flex: 0 1 20%;*/
+  border: solid;
+  
+}

@@ -1,0 +1,25 @@
+[27-Mar-2019 23:41:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match)' at line 1' in /home/ubuntu/workspace/midterm/api/getMatch.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getMatch.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getMatch.php on line 10
+[27-Mar-2019 23:42:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match)' at line 1' in /home/ubuntu/workspace/midterm/api/getMatch.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getMatch.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getMatch.php on line 10
+[27-Mar-2019 23:42:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match)' at line 1' in /home/ubuntu/workspace/midterm/api/getMatch.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getMatch.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getMatch.php on line 10
+[27-Mar-2019 23:42:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match)' at line 1' in /home/ubuntu/workspace/midterm/api/getMatch.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getMatch.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getMatch.php on line 10
+[27-Mar-2019 23:42:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'match)' at line 1' in /home/ubuntu/workspace/midterm/api/getMatch.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/midterm/api/getMatch.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/midterm/api/getMatch.php on line 10
